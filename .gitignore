@@ -1,0 +1,14 @@
+/node_modules/
+/src/vendors/node_modules/
+/build/
+/prod/
+/*.zip
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+package-lock.json
+
+.idea/
