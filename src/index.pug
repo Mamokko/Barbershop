@@ -1,0 +1,98 @@
+doctype
+html(lang='en')
+    head
+        meta(charset="UTF-8")
+        //link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet")
+        link(rel="stylesheet", href="css/main.css")
+        title Barbershop
+    body
+        header.header
+            .container.flex
+                nav.navbar.flex
+                        ul.navbar__list
+                            li.navbar__item
+                                a.navbar__link(href="#") информация
+                            li.navbar__item
+                                a.navbar__link(href="#") новости
+                            li.navbar__item
+                                a.navbar__link(href="#") прайс-лист
+                            li.navbar__item
+                                a.navbar__link(href="#") магазин
+                            li.navbar__item
+                                a.navbar__link(href="#") контакты
+                a.entry.flex(href="#")
+                    .entry_icon
+                    spant.entry_text вход
+        .logo
+        .worth.container
+            .worth_item
+                h2.worth_caption быстро
+                .worth_img
+                p.worth_text мы делаем свою работу быстро! два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!
+            .worth_item
+                h2.worth_caption круто
+                .worth_img
+                p.worth_text забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! во всяком случае внешне.
+            .worth_item
+                h2.worth_caption дорого
+                .worth_img
+                p.worth_text наши мастера - профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определенный статус?
+        .container
+            section.content
+                .content_news.content_item
+                    h2.content_caption новости
+                    p.content_text нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки
+                    span 11 января
+                    p.content_text в нашей команде пополнение, борис "бритва" стригунец, обладатель множества титулов и наград пополнили наши стройные ряды
+                    span 18 января
+                    .content_button
+                        a(href="#").button.content_link все новости
+
+                .content_photo.content_item
+                    h2.content_caption фотогалерея
+                    .content_slider
+                    .content_button.flex
+                        button.button назад
+                        button.button вперед
+
+            section.content
+                .content_contacts.content_item
+                    h2.content_caption контактная информация
+                    p.content_text барбершоп "бородинский"<br>адрес: г.санкт-петербург, б.конюшенная, д.19/8<br>телефон: +7 (495) 666-02-66
+                    p.content_text время работы:<br>пн-пт: с 10:00 до 22:00<br>сб-вс: с 10:00 до 19:00
+                    .content_button.flex
+                        a(href="#").button.content_link как проехать
+                        a(href="#").button.content_link обратная связь
+
+                .content_registration.content_item
+                    h2.content_caption записаться
+                    p.content_text укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+                    .content_box.flex
+                        label
+                        input.content_input(type="text" placeholder="дата")
+                        label
+                        input.content_input(type="text" placeholder="время")
+                    .content_box.flex
+                        label
+                        input.content_input(type="text" placeholder="ваше имя")
+                        label
+                        input.content_input(type="text" placeholder="телефон")
+                    .content_button
+                        button.button.button-long отправить
+
+        footer.footer
+            .container
+                .footer_contacts
+                    p барбершоп "бородинский"<br>адрес: г.санкт-петербург, ул.б.конюшенная, д.19/8
+                        a как нас найти?
+                    | телефон: +7 (495) 666-02-66
+                .footer_social
+                    span давайте дружить
+                    .footer_item
+                        a(href="#")
+                        a(href="#")
+                        a(href="#")
+                .footer_creator
+                    span разработано:
+                    .footer_item
+                        a(href="#") hmlacademy.ru

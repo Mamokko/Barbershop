@@ -22,7 +22,7 @@ var path = {
         html: 'build/',
         js: 'build/js/',
         css: 'build/css/',
-        img: 'build/img/',
+        img: 'build/image/',
         fonts: 'build/fonts/',
         vendors: 'build/vendors/',
         webp: 'build/img/banners/'
@@ -126,8 +126,8 @@ gulp.task('image:build', function() {
     gulp.src(path.src.img)
         .pipe(plumber())
         .pipe(imagemin([
-            imagemin.jpegtran({ progressive: true }),
-            imagemin.optipng({ optimizationLevel: 5 })
+            imagemin.jpegtran({ progressive: true })
+            // imagemin.optipng({ optimizationLevel: 5 })
         ]))
         .pipe(gulp.dest(path.build.img))
 });
