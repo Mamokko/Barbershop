@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
 }
-button, a {
+button:focus, a:focus {
   outline: none;
 }
-
+button::-moz-focus-inner {
+  border: 0;
+}
 a, ul, li {
   text-decoration: none;
   list-style: none;
@@ -22,6 +24,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-image: url("../image/fon.png");
+  background-repeat: no-repeat;
   background-color: #000;
 }
 
@@ -35,6 +38,11 @@ body {
 .flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 

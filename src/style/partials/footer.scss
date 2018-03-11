@@ -1,0 +1,53 @@
+.footer {
+  background: url("../image/footer.png");
+  height: 193px;
+  &_text {
+    margin-bottom: 20px;
+  }
+  &_item {
+    display: flex;
+    & a {
+      background-color: #000000;
+    }
+  }
+  &_icon {
+    width: 43px;
+    height: 43px;
+    margin-right: 6px;
+    background-color: #000;
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 10px 5px #555;
+    }
+  }
+}
+.line {
+  color: #ffffff;
+  text-decoration: underline;
+  &:hover,
+  &:focus {
+    color: #000000;
+  }
+}
+.long {
+  width: 140px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 8px;
+}
+.vcontakte {
+  background-image: url("../image/vcontakte.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.facebook {
+  background-image: url("../image/facebook.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.instagram {
+  background-image: url("../image/instagram.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
