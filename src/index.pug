@@ -2,39 +2,37 @@ doctype
 html(lang='en')
     head
         meta(charset="UTF-8")
-        //link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet")
         link(rel="stylesheet", href="css/main.css")
         title Barbershop
     body
         header.header
             .container.flex
-                nav.navbar.flex
-                        ul.navbar__list
-                            li.navbar__item
-                                a.navbar__link(href="#") информация
-                            li.navbar__item
-                                a.navbar__link(href="#") новости
-                            li.navbar__item
-                                a.navbar__link(href="#") прайс-лист
-                            li.navbar__item
-                                a.navbar__link(href="#") магазин
-                            li.navbar__item
-                                a.navbar__link(href="#") контакты
+                ul.navbar.flex
+                    li.navbar__item.flex
+                        a.navbar__link(href="#") информация
+                    li.navbar__item.flex
+                        a.navbar__link(href="#") новости
+                    li.navbar__item.flex
+                        a.navbar__link(href="#") прайс-лист
+                    li.navbar__item.flex
+                        a.navbar__link(href="#") магазин
+                    li.navbar__item.flex
+                        a.navbar__link(href="#") контакты
                 a.entry.flex(href="#")
                     .entry_icon
                     spant.entry_text вход
-        .logo
-        .worth.container
-            .worth_item
-                h2.worth_caption быстро
+        img.logo(src="../image/big-logo.png")
+        ul.worth.container
+            li.worth_item
+                h3.worth_caption быстро
                 .worth_img
                 p.worth_text мы делаем свою работу быстро! два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!
-            .worth_item
-                h2.worth_caption круто
+            li.worth_item
+                h3.worth_caption круто
                 .worth_img
                 p.worth_text забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! во всяком случае внешне.
-            .worth_item
-                h2.worth_caption дорого
+            li.worth_item
+                h3.worth_caption дорого
                 .worth_img
                 p.worth_text наши мастера - профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определенный статус?
         .container

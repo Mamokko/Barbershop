@@ -1,9 +1,6 @@
 .logo {
-  width: 368px;
-  height: 204px;
-  margin: auto;
+  margin-left: calc(50% - 368px/2); //как выставить выравнивание изображения по середине?
   margin-top: 60px;
-  background-image: url("../image/big-logo.png");
 }
 
 .worth {
@@ -51,6 +48,9 @@
     width: 348px;
     margin-top: 30px;
     margin-bottom: 5px;
+    & + span {
+      text-transform: none;
+    }
   }
   &_link {
     margin-top: 30px;
@@ -88,7 +88,7 @@
     background-color: #f9f6f3;
     &:hover,
     &:focus {
-      box-shadow: 0 0 10px 5px #555;
+      border: 2px  solid #663d15;
     }
   }
 }
