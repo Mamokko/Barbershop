@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("../image/fon.png");
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: 50% 0;
+}
+
+.page {
+  flex: 1 0 auto;
+}
+
+nav {
+  height: 72px;
+  background-color: #000000;
+}

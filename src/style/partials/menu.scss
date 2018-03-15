@@ -1,0 +1,22 @@
+.navbar {
+  height: 100%;
+  padding: 0 20px;
+  &-item {
+    height: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+    &:hover,
+    &:focus {
+      background-color: #242424;
+    }
+  }
+  &-link {
+    color: #ffffff;
+  }
+  &-logo {
+    width: 111px;
+    height: 24px;
+    background-image: url("../image/logo-menu.png");
+  }
+}

@@ -1,6 +1,8 @@
 .footer {
+  flex: 0 0 auto;
   background: url("../image/footer.png");
   height: 193px;
+  margin-top: 30px;
   &_text {
     margin-bottom: 20px;
   }
@@ -24,10 +26,6 @@
 .line {
   color: #ffffff;
   text-decoration: underline;
-  &:hover,
-  &:focus {
-    color: #000000;
-  }
 }
 .long {
   width: 140px;

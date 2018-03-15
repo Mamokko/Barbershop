@@ -16,17 +16,14 @@ a, ul, li {
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: "PT Sans - Narrow Bold", Arial, sans-serif ;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
   color: #fff;
-  background-image: url("../image/tint.jpg");
-  background-repeat: no-repeat;
-  background-color: #000;
 }
-
 .container {
   width: 1000px;
   height: 100%;
@@ -49,22 +46,4 @@ h3 {
   font-size: 32px;
   font-weight: 400;
   line-height: 42px;
-}
-
-.button {
-  display: inline-block;
-  width: 140px;
-  height: 44px;
-  background-color: #000000;
-  color: #ffffff;
-  border: 0;
-  font: inherit;
-  &-long {
-    margin-top: 7px;
-    width: 300px;
-  }
-  &:hover,
-  &:focus {
-    background-color: #663d15;
-  }
 }
