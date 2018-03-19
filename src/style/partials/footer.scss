@@ -19,7 +19,7 @@
     background-color: #000;
     &:hover,
     &:focus {
-      box-shadow: 0 0 10px 5px #555;
+      background-color: #fff;
     }
   }
 }
@@ -33,19 +33,33 @@
   color: #ffffff;
   text-align: center;
   padding-top: 8px;
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    color: #000000;
+  }
 }
 .vcontakte {
-  background-image: url("../image/vcontakte.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background-image: url("../image/sprite.png");
+  background-position: 0px 293px;
+  &:hover,
+  &:focus {
+    background-position: -41px 293px;
+  }
 }
 .facebook {
-  background-image: url("../image/facebook.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background-image: url("../image/sprite.png");
+  background-position: 0 361px;
+  &:hover,
+  &:focus {
+    background-position: -33px 362px;
+  }
 }
 .instagram {
-  background-image: url("../image/instagram.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background-image: url("../image/sprite.png");
+  background-position: 0 324px;
+  &:hover,
+  &:focus {
+    background-position: -37px 326px;
+  }
 }
