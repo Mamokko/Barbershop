@@ -9,7 +9,7 @@
   &_item {
     display: flex;
     & a {
-      background-color: #000000;
+      background-color: $color1;
     }
   }
   &_icon {
@@ -19,7 +19,7 @@
     background-color: #000;
     &:hover,
     &:focus {
-      background-color: #fff;
+      background-color: $color3;
     }
   }
 }
@@ -35,13 +35,13 @@
   padding-top: 8px;
   &:hover,
   &:focus {
-    background-color: #ffffff;
+    background-color: $color3;
     color: #000000;
   }
 }
 .vcontakte {
   background-image: url("../image/sprite.png");
-  background-position: 0px 293px;
+  background-position: 0 293px;
   &:hover,
   &:focus {
     background-position: -41px 293px;

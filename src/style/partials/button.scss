@@ -2,7 +2,7 @@
   display: inline-block;
   width: 140px;
   height: 44px;
-  background-color: #000000;
+  background-color: $color1;
   color: #ffffff;
   border: 0;
   font: inherit;
@@ -12,7 +12,7 @@
   }
   &:hover,
   &:focus {
-    background-color: #663d15;
+    background-color: $color2;
   }
 }
 
@@ -28,13 +28,13 @@
     width: 18px;
     height: 16px;
     margin-right: 15px;
-    background: url("../image/icon-exit.png");
+    background: url("../image/sprite.png") -103px 349px;
   }
   &:hover,
   &:focus {
     background-color: #242424;
     .button_navbar-icon {
-      background: url("../image/icon-white.png");
+      background: url("../image/sprite.png") -145px 353px;
     }
   }
 }
