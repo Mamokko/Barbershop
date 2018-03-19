@@ -1,4 +1,6 @@
 .wrapper {
+  position: relative;
+  padding-bottom: 193px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -15,4 +17,8 @@
 nav {
   height: 72px;
   background-color: #000000;
+}
+
+html, body,.wrapper {
+  height: 100%;
 }

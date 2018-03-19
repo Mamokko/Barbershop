@@ -38,8 +38,10 @@
     height: 178px;
     margin-top: 30px;
     margin-bottom: 38px;
-    padding: 7px;
-    background: url("../image/slider.png") no-repeat;
+    border: 7px solid #ffffff;
+    box-sizing: border-box;
+    background-image: url("../image/slider.png");
+    background-repeat: no-repeat;
   }
   &_box {
     padding: 0;
