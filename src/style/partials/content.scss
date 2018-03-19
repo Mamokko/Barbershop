@@ -1,9 +1,17 @@
+.main_content {
+  width: 1000px;
+  padding: 0 30px;
+  margin: auto;
+}
 .content {
   position: relative;
   display: flex;
   margin-bottom: 35px;
   background-color: #f9f6f3;
   color: #000000;
+  &:last-child {
+    margin-bottom: 65px;
+  }
   &:before {
     position: absolute;
     content: '';

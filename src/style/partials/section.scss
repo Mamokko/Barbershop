@@ -1,17 +1,21 @@
 .wrapper {
-  position: relative;
-  padding-bottom: 193px;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-image: url("../image/fon.png");
-  background-repeat: no-repeat;
-  background-color: #000;
-  background-position: 50% 0;
+  //background-image: url("../image/fon.png");
+  //background-repeat: no-repeat;
+  //background-color: #000;
+  //background-position: 50% 0;
+  //background-size: cover;
+  //box-sizing: border-box;
 }
 
 .page {
   flex: 1 0 auto;
+  background-image: url("../image/fon.png");
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: 50% 0;
+  //background-size: cover;
 }
 
 nav {
@@ -19,6 +23,6 @@ nav {
   background-color: #000000;
 }
 
-html, body,.wrapper {
+html, body, .wrapper {
   height: 100%;
 }
